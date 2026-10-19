@@ -2,6 +2,8 @@
 
 An end-to-end retail intelligence data product that analyzes the impact of seasonal holidays and macroeconomic indicators (Unemployment Rate, Consumer Price Index) on Walmart's retail performance. The system deploys a high-accuracy predictive engine to forecast future weekly store sales.
 
+https://walmartsalesforecastingsystem-rgihxe4ze5cw9iexj7x3rw.streamlit.app/
+
 ## 📊 Project Overview & Architecture
 This project consolidates three major analytical tracks into a single unified business solution:
 1. **Weekly Sales Prediction Engine:** Forecasts precise monetary revenue metrics per store.
