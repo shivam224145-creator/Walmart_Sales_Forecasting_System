@@ -13,7 +13,7 @@ app = FastAPI(
 )
 
 # 2. Define the path and securely load the trained production model from artifacts folder
-MODEL_PATH = r"C:\Users\lenovo\OneDrive\Desktop\Walmart_Sales_Forecasting_System\artifacts\walmart_xgboost_model.pkl"
+MODEL_PATH = "artifacts/walmart_xgboost_model.pkl"
 
 if os.path.exists(MODEL_PATH):
     model = joblib.load(MODEL_PATH)
