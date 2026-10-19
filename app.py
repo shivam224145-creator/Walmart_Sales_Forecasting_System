@@ -22,7 +22,7 @@ st.markdown("---")
 @st.cache_resource
 def load_xgboost_model():
     # Updated path pointing directly to your artifacts directory
-    model_path = r"C:\Users\lenovo\OneDrive\Desktop\Walmart_Sales_Forecasting_System\artifacts\walmart_xgboost_model.pkl"
+    model_path = "artifacts/walmart_xgboost_model.pkl"
     return joblib.load(model_path)
 
 
@@ -35,7 +35,7 @@ except Exception as e:
 # 4. Load the clean dataset for rendering live interactive plots
 @st.cache_data
 def load_clean_data():
-    data_path = r"C:\Users\lenovo\OneDrive\Desktop\Walmart_Sales_Forecasting_System\data\clean\walmart_clean.csv"
+    data_path = "data/clean/walmart_clean.csv"
     return pd.read_csv(data_path)
 
 
